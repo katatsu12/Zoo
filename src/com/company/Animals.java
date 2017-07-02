@@ -1,5 +1,5 @@
 package com.company;
 
 public class Animals {
-    public void Animal () {}
+    public void Beast () {}
 }
