@@ -3,20 +3,22 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Animals[] array = new Animals[] {new Giraffe(), new Lion(), new Monkey()};
-        for (int x = 0; x < array.length; x++)
-            array[x].Beast();
 
-        Lion lion = new Lion();
-        Giraffe giraffe = new Giraffe();
-        Monkey monkey = new Monkey();
+        Lion l = new Lion();
+        Monkey m = new Monkey();
+        Giraffe g = new Giraffe();
 
-        say(lion);
-        say(giraffe);
-        say(monkey);
-    }
+        g.Beast();
+        g.Feeding();
+        g.Vitamins();
 
-    public static void say(Animals animal){
-        animal.Beast();
+        l.Beast();
+        l.Feeding();
+        l.Vitamins();
+
+        m.Beast();
+        m.Feeding();
+        m.Vitamins();
+
     }
 }
